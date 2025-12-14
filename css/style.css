@@ -453,3 +453,10 @@ h2{
   justify-content:flex-end;
   gap:10px;
 }
+.cta-row{
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;        /* 🔑 PENTING */
+  align-items: center;
+}
+
