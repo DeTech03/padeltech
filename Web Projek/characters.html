@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Characters — Hollow Knight Series</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="logo"><img src="assets/icon.png"></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="characters.html" class="active">Characters</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <header class="page-header fade-in">
+    <h1>Characters</h1>
+    <p class="muted">Beberapa karakter ikonik dari Hollow Knight.</p>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="char-grid">
+
+        <!-- Knight -->
+        <article id="knight" class="char-card fade-up">
+          <img src="assets/knight.jpg" alt="The Knight" />
+          <div class="char-body">
+            <h3>The Knight</h3>
+            <p>
+              Sosok misterius dan sunyi yang menjelajahi Hallownest, dengan kemampuan untuk
+              mempelajari skill baru, memperkuat Nail, dan menggunakan berbagai Charm untuk
+              menyesuaikan gaya bermain.
+            </p>
+            <details>
+              <summary>Detail singkat</summary>
+              <p>Fokus gameplay: explorasi, nail combat, charm build.</p>
+            </details>
+          </div>
+        </article>
+
+        <!-- Hornet -->
+        <article id="hornet" class="char-card fade-up">
+          <img src="assets/hornet.jpg" alt="Hornet" />
+          <div class="char-body">
+            <h3>Hornet</h3>
+            <p>
+              Protector dari Hallownest yang lincah dan agresif, menggunakan
+              Needle & Thread. Dikenal dengan serangan cepat dan pergerakan dinamis,
+              membuat pertempuran menjadi lebih intens.
+            </p>
+            <details>
+              <summary>Detail singkat</summary>
+              <p>Gameplay style: cepat, mobile, precision attack.</p>
+            </details>
+          </div>
+        </article>
+
+        <!-- Quirrel -->
+        <article id="quirrel" class="char-card fade-up">
+          <img src="assets/quirrel.jpg" alt="Quirrel" />
+          <div class="char-body">
+            <h3>Quirrel</h3>
+            <p>
+              Penjelajah yang ramah dan penuh rasa ingin tahu. Sering memberikan lore,
+              petunjuk, serta nuansa hangat di tengah kesunyian Hallownest.
+            </p>
+            <details>
+              <summary>Detail singkat</summary>
+              <p>Role: lore, eksplorasi, companion momen tertentu.</p>
+            </details>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© Hollow Knight — Fan Info Page.</p>
+    </div>
+  </footer>
+<!-- FEEDBACK BUTTON -->
+<button class="feedback-btn" id="openFeedback">💬 Feedback</button>
+
+<!-- FEEDBACK MODAL -->
+<div class="feedback-modal" id="feedbackModal">
+  <div class="feedback-box">
+    <h3>Feedback</h3>
+    <p class="muted">Masukan Anda sangat membantu pengembangan website ini.</p>
+
+    <form id="feedbackForm">
+      <input type="text" placeholder="Nama (opsional)">
+      <textarea placeholder="Tulis feedback Anda di sini..." required></textarea>
+
+      <div class="feedback-actions">
+        <button type="button" class="btn" id="closeFeedback">Batal</button>
+        <button type="submit" class="btn primary">Kirim</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
