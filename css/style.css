@@ -463,4 +463,11 @@ h2{
   justify-content:flex-end;
   gap:10px;
 }
+@media(max-width:600px){
+  .cta-row{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 
